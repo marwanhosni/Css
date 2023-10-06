@@ -1,0 +1,34 @@
+.assign-2-shape-1 {
+    width: 400 px;
+    height: 400px;
+    background-image: url("../image.png");
+    background-color: brown;
+    background-repeat: no-repeat;
+}
+
+
+.assign-2-shape-2 {
+    width: 400px;
+    height: 400px;
+    background-image: url("../image.png");
+    background-color: brown;
+    background-repeat: repeat-y;
+}
+
+
+
+.assign-2-shape-3 {
+    width: 400 px;
+    height: 400px;
+    background-image: url("../image.png");
+    background-color: brown;
+    background-repeat: repeat-x;
+}
+
+.assign-2-shape-4 {
+    k width: 400 px;
+    height: 400px;
+    background-image: url("../image.png");
+    background-color: brown;
+    background-repeat: repeat;
+}
