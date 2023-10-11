@@ -1,0 +1,13 @@
+div {
+    text-align: center;
+    display: block;
+    width: fit-content;
+    text-transform: capitalize;
+    background-color: aqua;
+    color: white;
+    border-bottom: 30px solid #088177;
+    font-size: 30px;
+    padding: 40px;
+    margin: auto;
+    text-decoration: none;
+}
