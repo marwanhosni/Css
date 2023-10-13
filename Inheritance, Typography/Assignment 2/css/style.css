@@ -1,0 +1,23 @@
+.one,
+.two,
+.three {
+    text-align: center;
+    color: blueviolet;
+    font-size: 70px;
+}
+
+.one {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+.two {
+    font-family: 'cairo', sans-serif;
+    text-transform: capitalize;
+}
+
+.three {
+    font-family: 'jomhuria', sans-serif;
+}

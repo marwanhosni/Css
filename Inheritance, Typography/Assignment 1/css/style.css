@@ -1,0 +1,12 @@
+div {
+    color: black;
+    background-color: #eeee;
+    padding: 20px;
+    margin: 10px;
+    border: 5px solid red;
+}
+
+div p {
+    border: inherit;
+    padding: inherit;
+}
