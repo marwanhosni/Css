@@ -1,0 +1,24 @@
+div {
+    margin: 20px auto;
+    width: 300px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 20px;
+    background-color: ???;
+    /* Get The Background From Image */
+    color: black;
+}
+
+.normal {
+    color: black;
+    background-color: rgb(169 169 169);
+}
+
+.one {
+    color: black;
+    background-color: rgb(169 169 169 /0.1);
+}
+
+.two {
+    opacity: 0.1;
+}
