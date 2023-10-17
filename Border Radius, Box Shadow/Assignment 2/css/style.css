@@ -1,0 +1,13 @@
+div {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: auto;
+    background-color: #eee;
+    border-top-right-radius: 47px 47px;
+    border-top-left-radius: 10px 23px;
+    border-bottom-left-radius: 47px 47px;
+    border-bottom-right-radius: 10px 23px;
+    border: 2px solid #29202070;
+    box-shadow: inset 6px 14px 17px 0px #b8b8a7
+}
