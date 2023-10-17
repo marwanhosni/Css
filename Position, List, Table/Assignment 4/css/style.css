@@ -1,0 +1,40 @@
+table {
+    text-transform: capitalize;
+    position: relative;
+    width: 700px;
+    border: 1px solid #eee;
+    padding: 0px;
+    margin: auto;
+    text-align: center;
+    border-spacing: 1px;
+}
+
+thead {
+    background-color: #696969;
+    color: white;
+    text-align: center;
+
+}
+
+tbody {
+    color: white;
+    background-color: #DCDCDC;
+}
+
+.view {
+    background-color: #4169E1;
+    color: white;
+    text-align: center;
+}
+
+.delete {
+    background-color: #DC143C;
+    color: white;
+    text-align: center;
+}
+
+img {
+
+    width: fit-content;
+
+}
