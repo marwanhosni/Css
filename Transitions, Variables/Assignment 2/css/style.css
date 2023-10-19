@@ -1,0 +1,27 @@
+div {
+    transition-duration: 0s;
+    transition-delay: 0s;
+}
+
+.hello {
+
+    background-color: #eee !important;
+    text-align: center !important;
+    width: 400px !important;
+    height: 30px !important;
+    line-height: 30px !important;
+    margin: auto !important;
+    color: black !important;
+    font-size: 20px !important;
+    text-indent: -2000px;
+    position: relative;
+    border: none !important;
+}
+
+.hello::after {
+    content: "ELZERO";
+    position: absolute;
+    left: 200px;
+    text-indent: 0;
+
+}

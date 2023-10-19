@@ -1,0 +1,25 @@
+.parent {
+    width: 400px;
+    background-color: #dad8d8;
+    color: black;
+    padding: 25px;
+    margin: 30px auto;
+    transition-duration: 0.5s;
+
+}
+
+.son {
+    width: 300px;
+    background-color: #b4b2b2;
+    padding: 10px;
+    transition-delay: .5s;
+    transition-duration: 0.5s;
+}
+
+.parent:hover {
+    margin-top: 5px;
+}
+
+.son:hover {
+    margin-top: 10px;
+}
