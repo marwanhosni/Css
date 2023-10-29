@@ -1,0 +1,77 @@
+.parent {
+    margin: 30px auto;
+    padding: 10px;
+    height: 100vh;
+    background-color: #eee;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(4, auto);
+    gap: 10px;
+}
+
+.parent div {
+    padding: 10px;
+    background-color: white;
+    border-bottom: 5px red solid;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+
+.parent p {
+    opacity: 40%;
+    color: grey;
+    margin: 2px;
+}
+
+.osama {
+    grid-area: 1 / 1 / 1 / span 2;
+}
+
+.ahmed {
+    grid-area: 1 / 3 / 1 / 4;
+}
+
+.shady {
+    grid-column-start: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-column-end: 4;
+
+    background-color: black !important;
+    color: white !important;
+}
+
+.mohamed {
+    grid-area: 2 / 1 / span 2 / 1;
+}
+
+.mahmoud {
+    grid-area: 2 / 2 / 2 / span 2;
+    background-color: black !important;
+    color: white !important;
+}
+
+.ezz {
+    grid-area: 3 / 2 / 3 / span 2;
+}
+
+.marwan {
+    grid-area: 4 / 1 / 4 / 2;
+}
+
+.ibrahim {
+    grid-area: 4 / 2 / 4 / 3;
+    background-color: black !important;
+    color: white !important;
+}
+
+.gamal {
+    grid-area: 4 / 3 / 4 / 4;
+
+}
+
+.eman {
+    grid-area: 4 / 4 / 4 / 4;
+
+}
